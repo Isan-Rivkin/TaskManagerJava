@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_111" class="java.beans.XMLDecoder">
+ <object class="java.util.HashMap">
+  <void method="put">
+   <string>queuedProcess%</string>
+   <object class="model.process.Process" id="Process0">
+    <void property="description">
+     <string>i am queded process</string>
+    </void>
+    <void property="process_comments">
+     <void method="add">
+      <string>תגובה 1</string>
+     </void>
+     <void method="add">
+      <string>תגובה 2</string>
+     </void>
+     <void method="add">
+      <string>תגובה 3</string>
+     </void>
+    </void>
+    <void property="tasks">
+     <void method="put">
+      <string>task1</string>
+      <object class="model.task.Task" id="Task0">
+       <void property="comments">
+        <void method="add">
+         <string>just task 1</string>
+        </void>
+       </void>
+       <void property="finishTime">
+        <long>1492371485198</long>
+       </void>
+       <void property="finished">
+        <boolean>true</boolean>
+       </void>
+       <void property="title">
+        <string>task1</string>
+       </void>
+      </object>
+     </void>
+    </void>
+    <void property="title">
+     <string>queuedProcess</string>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>תהליך%קפוא%4%</string>
+   <object class="model.process.Process" id="Process1">
+    <void property="process_comments">
+     <void method="add">
+      <string>i am queded process</string>
+     </void>
+     <void method="add">
+      <string>תגובה 1</string>
+     </void>
+     <void method="add">
+      <string>תגובה 2</string>
+     </void>
+     <void method="add">
+      <string>תגובה 3</string>
+     </void>
+    </void>
+    <void property="tasks">
+     <void method="put">
+      <string>task1</string>
+      <object idref="Task0"/>
+     </void>
+    </void>
+    <void property="title">
+     <string>תהליך קפוא 4</string>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>תהליך%קפוא%8%</string>
+   <object class="model.process.Process" id="Process2">
+    <void property="process_comments">
+     <void method="add">
+      <string>i am queded process</string>
+     </void>
+     <void method="add">
+      <string>תגובה 1</string>
+     </void>
+     <void method="add">
+      <string>תגובה 2</string>
+     </void>
+     <void method="add">
+      <string>תגובה 3</string>
+     </void>
+    </void>
+    <void property="tasks">
+     <void method="put">
+      <string>task1</string>
+      <object idref="Task0"/>
+     </void>
+    </void>
+    <void property="title">
+     <string>תהליך קפוא 8</string>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>ADDED%TEST%SAVE%</string>
+   <object class="model.process.Process" id="Process3">
+    <void property="process_comments">
+     <void method="add">
+      <string></string>
+     </void>
+    </void>
+    <void property="targetDays">
+     <int>11</int>
+    </void>
+    <void property="title">
+     <string>ADDED TEST SAVE</string>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>

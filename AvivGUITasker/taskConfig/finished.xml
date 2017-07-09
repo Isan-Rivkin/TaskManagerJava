@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_111" class="java.beans.XMLDecoder">
+ <object class="java.util.HashMap">
+  <void method="put">
+   <string>תהליך%מת%7%</string>
+   <object class="model.process.Process" id="Process0">
+    <void property="finished">
+     <boolean>true</boolean>
+    </void>
+    <void property="finishedTime">
+     <long>1492371485198</long>
+    </void>
+    <void property="process_comments">
+     <void method="add">
+      <string>i am dead process</string>
+     </void>
+     <void method="add">
+      <string>תגובה 1</string>
+     </void>
+     <void method="add">
+      <string>תגובה 2</string>
+     </void>
+     <void method="add">
+      <string>תגובה 3</string>
+     </void>
+    </void>
+    <void property="tasks">
+     <void method="put">
+      <string>task1</string>
+      <object class="model.task.Task" id="Task0">
+       <void property="comments">
+        <void method="add">
+         <string>just task 1</string>
+        </void>
+       </void>
+       <void property="finishTime">
+        <long>1492371485198</long>
+       </void>
+       <void property="finished">
+        <boolean>true</boolean>
+       </void>
+       <void property="title">
+        <string>task1</string>
+       </void>
+      </object>
+     </void>
+    </void>
+    <void property="title">
+     <string>תהליך מת 7</string>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>finishedProcess%</string>
+   <object class="model.process.Process" id="Process1">
+    <void property="finished">
+     <boolean>true</boolean>
+    </void>
+    <void property="finishedTime">
+     <long>1492371485198</long>
+    </void>
+    <void property="process_comments">
+     <void method="add">
+      <string>i am finished process</string>
+     </void>
+     <void method="add">
+      <string>תגובה 1</string>
+     </void>
+     <void method="add">
+      <string>תגובה 2</string>
+     </void>
+     <void method="add">
+      <string>תגובה 3</string>
+     </void>
+    </void>
+    <void property="tasks">
+     <void method="put">
+      <string>task10</string>
+      <object class="model.task.Task" id="Task1">
+       <void property="comments">
+        <void method="add">
+         <string>just task 3</string>
+        </void>
+        <void method="add">
+         <string>just task 4</string>
+        </void>
+        <void method="add">
+         <string>just task 5</string>
+        </void>
+        <void method="add">
+         <string>just task 6</string>
+        </void>
+        <void method="add">
+         <string>just task 7</string>
+        </void>
+        <void method="add">
+         <string>just task 8</string>
+        </void>
+        <void method="add">
+         <string>just task 10</string>
+        </void>
+       </void>
+       <void property="description">
+        <string>just task 9</string>
+       </void>
+       <void property="title">
+        <string>task10</string>
+       </void>
+      </object>
+     </void>
+    </void>
+    <void property="title">
+     <string>finishedProcess</string>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
